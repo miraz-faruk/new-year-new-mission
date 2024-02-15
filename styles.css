@@ -7,7 +7,7 @@
 }
 
 .banner-image {
-    border-radius: 20px;
+    border-radius: 16px;
     position: relative;
     overflow: hidden;
 }
@@ -21,7 +21,6 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0));
-    z-index: 1;
 }
 
 .banner-text {
@@ -32,7 +31,6 @@
     text-align: center;
     color: white;
     font-family: "Merriweather", serif;
-    z-index: 2;
 }
 
 .first-text {
@@ -57,7 +55,7 @@
     font-family: "Inter", sans-serif;
 }
 
-.first-text {
+.category-text1 {
     font-size: 88px;
     font-weight: 700;
     color: rgb(255, 0, 0);
@@ -65,7 +63,7 @@
     margin-bottom: 48px;
 }
 
-.second-text {
+.category-desc {
     font-size: 24px;
     font-weight: 500;
     color: rgb(255, 0, 0);
@@ -73,10 +71,78 @@
     margin-bottom: 16px;
 }
 
-.third-text {
+.category-text2 {
     margin-top: 0;
     font-size: 48px;
     font-weight: 700;
 }
 
 /* All Categories section end */
+
+/* Mid Night section start */
+.mid-night {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-night-image {
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mid-night-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
+}
+
+.mid-night-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 40px;
+    position: absolute;
+    margin-left: 126px;
+}
+
+.mid-night-text {
+    text-align: left;
+    color: white;
+    font-family: "Merriweather", serif;
+}
+
+.mid-night-header {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.mid-night-desc {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.btn-join-now {
+    background-color: skyblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.mid-night-image2 {
+    border-radius: 16px;
+    overflow: hidden;
+    margin-right: 110px;
+}
+
+/* Mid Night section end */
