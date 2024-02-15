@@ -1,0 +1,48 @@
+/* Banner style start */
+body {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image {
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Code is for dark image */
+.banner-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0));
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "Merriweather", serif;
+}
+
+.first-text {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.second-text {
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Banner style end */
