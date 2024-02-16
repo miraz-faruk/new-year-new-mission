@@ -316,6 +316,7 @@ header {
 }
 
 .email {
+    text-align: center;
     margin-top: 48px;
 }
 
@@ -327,6 +328,9 @@ header {
 }
 
 #btn-subscribe {
+    background: red;
+    color: white;
+    border: none;
     border-radius: 0 50px 50px 0;
     padding: 24px 56px;
     font-size: 20px;
