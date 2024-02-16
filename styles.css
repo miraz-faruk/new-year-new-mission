@@ -2,6 +2,49 @@
     margin: 0;
 }
 
+header,
+main {
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,
+.mid-night,
+.information,
+.subscribe {
+    border-radius: 16px;
+}
+
+.coming-soon-header,
+.portfolio-header,
+.subscribe-header {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 22px;
+}
+
+.email,
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.address-section,
+.contact,
+.terms {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* Banner style start */
 .banner {
     margin-top: 50px;
@@ -161,14 +204,10 @@
 .information {
     margin-top: 120px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
-    border-radius: 16px;
     text-align: center;
     padding-top: 100px;
     font-family: "Inter", sans-serif;
     font-size: 32px;
-    width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #information-btn {
@@ -189,9 +228,6 @@
     align-items: center;
     justify-content: center;
     gap: 70px;
-    width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #joy-img {
@@ -265,16 +301,6 @@
 .portfolio {
     margin-top: 120px;
     margin-bottom: 120px;
-    width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#portfolio-header,
-#coming-soon-header {
-    font-family: "Merriweather", serif;
-    font-size: 48px;
-    font-weight: 900;
 }
 
 .cart {
@@ -293,34 +319,17 @@
 .subscribe {
     text-align: center;
     background: rgba(255, 0, 0, 0.05);
-    border-radius: 16px;
-    width: 1320px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding: 80px 212px;
     font-family: "Inter", sans-serif;
 }
 
 .subscribe-header {
-    font-family: "Merriweather", serif;
-    font-size: 48px;
-    font-weight: 900;
     margin-top: 40px;
-    margin-bottom: 6px;
-}
-
-.description {
-    font-size: 20px;
-    color: rgba(7, 2, 17, 0.6);
-    margin-top: 16px;
     margin-bottom: 22px;
 }
 
 .email {
-    margin-top: 26px;
-    display: flex;
-    justify-content: center;
+    margin-top: 48px;
 }
 
 #email-field {
@@ -351,14 +360,6 @@ footer {
     font-weight: 500;
 }
 
-.address-section,
-.contact,
-.icons,
-.terms {
-    display: flex;
-    justify-content: space-between;
-}
-
 .contact {
     gap: 16px;
 }
@@ -377,7 +378,6 @@ hr {
 }
 
 .icons {
-    justify-content: center;
     width: 62.5;
     height: 62.5;
     gap: 24px;
