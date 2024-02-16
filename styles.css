@@ -241,7 +241,7 @@
 .address-section {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 98px;
+    margin-bottom: 50px;
 }
 
 .contact {
@@ -254,12 +254,17 @@
     margin-top: 5px;
 }
 
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 .icons {
     display: flex;
     justify-content: center;
     width: 62.5;
     height: 62.5;
-    margin-bottom: 100px;
+    margin-top: 48.5px;
+    margin-bottom: 48.5px;
 }
 
 .icons img {
@@ -267,6 +272,7 @@
 }
 
 .terms {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
