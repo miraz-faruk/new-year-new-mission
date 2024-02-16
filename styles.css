@@ -74,6 +74,7 @@
     color: rgb(255, 0, 0);
     margin-top: 0;
     margin-bottom: 16px;
+    font-family: "Inter", sans-serif;
 }
 
 .category-text2 {
@@ -179,6 +180,34 @@
 
 /* Information section end */
 
+/* Portfolio section start */
+
+.portfolio {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio-header {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.cart {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.cart img:hover {
+    transform: scale(1.1);
+}
+
+/* Portfolio section end */
+
 /* Subscribe section start */
 .subscribe {
     text-align: center;
@@ -197,16 +226,18 @@
     font-size: 48px;
     font-weight: 900;
     margin-top: 40px;
-    margin-bottom: 22px;
+    margin-bottom: 6px;
 }
 
 .description {
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
+    margin-top: 16px;
+    margin-bottom: 22px;
 }
 
 .email {
-    margin-top: 48px;
+    margin-top: 26px;
     display: flex;
     justify-content: center;
 }
