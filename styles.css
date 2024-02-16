@@ -134,9 +134,11 @@
 }
 
 .btn-join-now {
-    background-color: skyblue;
-    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
     border-radius: 5px;
+    border: none;
 }
 
 .mid-night-image2 {
@@ -146,3 +148,28 @@
 }
 
 /* Mid Night section end */
+
+/* Information section start */
+.information {
+    margin-top: 120px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#information-btn {
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
+
+.color-text {
+    color: red;
+}
+
+/* Information section end */
