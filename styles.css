@@ -179,6 +179,54 @@
 
 /* Information section end */
 
+/* Subscribe section start */
+.subscribe {
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: "Inter", sans-serif;
+}
+
+.subscribe-header {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.description {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.email {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+#email-field {
+    color: rgba(7, 2, 17, 0.6);
+    padding: 25px 267px 25px 30px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+
+#btn-subscribe {
+    border-radius: 0 50px 50px 0;
+    padding: 24px 56px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Subscribe section end */
+
 /* Footer section start */
 .footer {
     background-color: rgb(7, 2, 17);
